@@ -1,0 +1,23 @@
+.outline {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  min-width: 605px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  margin: 0;
+}
+
+.Links {
+  font-weight: 500;
+  display: flex;
+  column-gap: 55px;
+  margin-right: 17px;
+  align-items: center;
+}
