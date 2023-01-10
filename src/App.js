@@ -1,7 +1,17 @@
 import "./App.css";
+import Project from "./components/Project/index";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <h1>Projects</h1>
+      <div className="ProjectContainer">
+        <Project />
+        <Project />
+        <Project />
+      </div>
+    </div>
+  );
+};
 
 export default App;
