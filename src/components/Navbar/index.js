@@ -1,5 +1,6 @@
 import { Link } from "@mui/material";
 import styles from "./navbar.module.css";
+import Resume from "./Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
           <Link className={styles.link} to="">
             Projects
           </Link>
-          <Link className={styles.link} to="">
+          <Link className={styles.link} target="_blank" href={Resume}>
             Resume
           </Link>
           <Link className={styles.link} to="">
