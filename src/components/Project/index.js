@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Link } from "@mui/material";
 
-const Project = () => {
+const Project = (props) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -17,16 +17,19 @@ const Project = () => {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {props.ProjectTitle}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {props.ProjectDescription}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small" href={props.link} target="_blank">
+          {props.ButtonLinkContent}
+        </Button>
+        <Button size="small" href={props.repository} target="_blank">
+          {props.ButtonRepositoryContent}
+        </Button>
       </CardActions>
     </Card>
   );
