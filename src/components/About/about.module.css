@@ -1,0 +1,48 @@
+.Container {
+  text-align: center;
+  font-weight: 300;
+}
+
+img {
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1110px) {
+  img {
+    max-width: 400px;
+  }
+}
+
+.PictureImageContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+
+@media (max-width: 1110px) {
+  .PictureImageContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
+
+.Biography {
+  max-width: 400px;
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+@media (max-width: 1110px) {
+  .Biography {
+    margin-right: inherit;
+    margin-block: auto;
+  }
+}

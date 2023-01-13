@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Navbar from "./components/Navbar/index";
+import About from "./components/About/index";
 
 const RouteSwitch = () => {
   return (
@@ -8,7 +9,7 @@ const RouteSwitch = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/profile" element={<Navbar />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
