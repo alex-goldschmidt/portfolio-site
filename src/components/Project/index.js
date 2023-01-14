@@ -10,9 +10,13 @@ const Project = (props) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
-        sx={{ height: 250, backgroundPosition: "top" }}
-        image="https://images.unsplash.com/photo-1504450874802-0ba2bcd9b5ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-        title="green iguana"
+        sx={{
+          height: 200,
+          backgroundPosition: "top",
+          backgroundSize: "contain",
+        }}
+        image={props.image}
+        title="Project Image"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

@@ -1,5 +1,8 @@
 import "./App.css";
 import Project from "./components/Project/index";
+import OrderBookPicture from "./Images/OrderBookPicture.png";
+import SimplyNewsPicture from "./Images/SimplyNewsPicture.png";
+import MemoryCardsPicture from "./Images/MemoryCardsPicture.png";
 
 const App = () => {
   return (
@@ -14,6 +17,7 @@ const App = () => {
           repository="https://github.com/alex-goldschmidt/order-book"
           ButtonLinkContent="Link"
           ButtonRepositoryContent="Repository"
+          image={OrderBookPicture}
         />
         <Project
           ProjectTitle="Simply News"
@@ -22,6 +26,7 @@ const App = () => {
           repository="https://github.com/alex-goldschmidt/simply-news"
           ButtonLinkContent=""
           ButtonRepositoryContent="Repository"
+          image={SimplyNewsPicture}
         />
         <Project
           ProjectTitle="Memory Cards"
@@ -31,6 +36,7 @@ const App = () => {
           repository="https://github.com/alex-goldschmidt/Memory-Cards"
           ButtonLinkContent="Link"
           ButtonRepositoryContent="Repository"
+          image={MemoryCardsPicture}
         />
       </div>
     </div>
