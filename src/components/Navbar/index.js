@@ -8,13 +8,13 @@ const Navbar = () => {
       <div className={styles.content}>
         <h2 className={styles.Header}>Alex Goldschmidt</h2>
         <div className={styles.Links}>
-          <Link className={styles.link} href="/">
+          <Link className={styles.link} to="/">
             Projects
           </Link>
           <Link className={styles.link} target="_blank" href={Resume}>
             Resume
           </Link>
-          <Link className={styles.link} href="/About">
+          <Link className={styles.link} to="/About">
             About
           </Link>
         </div>

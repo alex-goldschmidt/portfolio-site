@@ -5,10 +5,11 @@ import About from "./components/About/index";
 
 const RouteSwitch = () => {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <Navbar />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/Projects" element={<App />} />
         <Route path="/About" element={<About />} />
       </Routes>
     </HashRouter>
