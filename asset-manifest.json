@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.beb76bcd.css",
-    "main.js": "/portfolio-site/static/js/main.268bd0a6.js",
+    "main.css": "/portfolio-site/static/css/main.05663443.css",
+    "main.js": "/portfolio-site/static/js/main.5b30d729.js",
     "static/media/Headshot.jpg": "/portfolio-site/static/media/Headshot.34ff5797ec6908a5d349.jpg",
     "static/media/SimplyNewsPicture.png": "/portfolio-site/static/media/SimplyNewsPicture.42207af4dc22aa38f791.png",
     "static/media/OrderBookPicture.png": "/portfolio-site/static/media/OrderBookPicture.f5c608c5594800faaa38.png",
@@ -10,11 +10,11 @@
     "static/media/GitHub.svg": "/portfolio-site/static/media/GitHub.a36ff301fbe58c581a6345ab02c7a851.svg",
     "index.html": "/portfolio-site/index.html",
     "static/media/LinkedIn.svg": "/portfolio-site/static/media/LinkedIn.c9dfcac6afe6a273ad25a4f5d97a3a35.svg",
-    "main.beb76bcd.css.map": "/portfolio-site/static/css/main.beb76bcd.css.map",
-    "main.268bd0a6.js.map": "/portfolio-site/static/js/main.268bd0a6.js.map"
+    "main.05663443.css.map": "/portfolio-site/static/css/main.05663443.css.map",
+    "main.5b30d729.js.map": "/portfolio-site/static/js/main.5b30d729.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb76bcd.css",
-    "static/js/main.268bd0a6.js"
+    "static/css/main.05663443.css",
+    "static/js/main.5b30d729.js"
   ]
 }
