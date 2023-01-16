@@ -1,6 +1,6 @@
 import { Link } from "@mui/material";
 import styles from "./navbar.module.css";
-import Resume from "./Resume.pdf";
+import Resume from "./Alex Goldschmidt Resume.pdf";
 
 const Navbar = () => {
   return (
